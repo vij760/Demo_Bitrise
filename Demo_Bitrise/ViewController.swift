@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         
-        print("print view will")
+        print("print view will called")
     }
 
     override func didReceiveMemoryWarning() {
