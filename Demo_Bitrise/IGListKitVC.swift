@@ -10,7 +10,40 @@ import UIKit
 import IGListKit
 
 class IGListKitVC: UIViewController {
+    enum Gender {
+        case male
+        case female
+        case unknown
+    }
 
+    struct Human {
+        var gender: Gender
+        var age:Int = 10
+        
+        init(gender: Gender){
+            self.gender = gender
+            print("gender = \(gender)")
+        }
+        
+        init(age:Int) {
+            self.age = age
+            self.gender = .unknown
+            print("age = \(self.age) ,gender = \(gender)")
+        }
+        
+        init(age:Int, gender:Gender) {
+            self.age = age
+            self.gender = gender
+            print("age = \(self.age) ,gender = \(gender)")
+        }
+        
+        init(_ age:Int, _ gender:Gender) {
+            self.age = age
+            self.gender = gender
+            print("age = \(self.age) ,gender = \(gender)")
+        }
+    }
+    
     @IBOutlet var collectionView: UICollectionView!
     lazy var adapter: ListAdapter =  {
         let updater = ListAdapterUpdater()
@@ -26,7 +59,19 @@ class IGListKitVC: UIViewController {
         super.viewDidLoad()
         
         _ = adapter
+        let client = Client()
+        print("client \(client.service)")
+        print("********************************************")
+        let _:Human = Human(gender: .male)
+        let _:Human = Human(age: 25)
+        let _:Human = Human(35, .female)
+        let _:Human = Human(age: 40, gender: .male)
+        print("********************************************")
 
+//     print("human = \(human)")
+        
+        let address: Address = Address(city: "pune", state: "maharastra", country: "India", pin: 224001, street: "marunji", sector: "R3")
+        address.printTheValue()        
         // Do any additional setup after loading the view.
     }
 

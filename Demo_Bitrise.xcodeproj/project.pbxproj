@@ -17,12 +17,17 @@
 		93C405351FFE3E2000C6A4EE /* Demo_BitriseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C405341FFE3E2000C6A4EE /* Demo_BitriseUITests.swift */; };
 		9588DD90148FAE6C3A7829D4 /* Pods_Demo_BitriseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8AC082757AF13B0EFB7E0A /* Pods_Demo_BitriseTests.framework */; };
 		A065195E97C38C74719B9003 /* Pods_Demo_Bitrise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575CDF3CFB788E105CC7AA89 /* Pods_Demo_Bitrise.framework */; };
+		B114F4122196D570001EA7D5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = B114F4112196D570001EA7D5 /* Address.swift */; };
+		B114F4142196DC9C001EA7D5 /* AddressExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B114F4132196DC9C001EA7D5 /* AddressExt.swift */; };
 		B18F6BC8214C1CD900A3C0EA /* IGListKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F6BC7214C1CD900A3C0EA /* IGListKitVC.swift */; };
 		B18F6BCA214C1DFF00A3C0EA /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F6BC9214C1DFF00A3C0EA /* SuperHero.swift */; };
 		B18F6BCC214C1EE600A3C0EA /* SuperHeroDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F6BCB214C1EE600A3C0EA /* SuperHeroDataSource.swift */; };
 		B18F6BCE214C1F4C00A3C0EA /* SuperHeroSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F6BCD214C1F4C00A3C0EA /* SuperHeroSectionController.swift */; };
 		B18F6BD1214C1FA900A3C0EA /* SuperHeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18F6BCF214C1FA900A3C0EA /* SuperHeroCell.swift */; };
 		B18F6BD2214C1FA900A3C0EA /* SuperHeroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B18F6BD0214C1FA900A3C0EA /* SuperHeroCell.xib */; };
+		B1C6F103219600010086FF60 /* RealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6F102219600010086FF60 /* RealService.swift */; };
+		B1C6F105219600740086FF60 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6F104219600740086FF60 /* Client.swift */; };
+		B1E02E4C21507E80007BEA47 /* SafeAreaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E02E4B21507E80007BEA47 /* SafeAreaVC.swift */; };
 		DB5C13F1B8DBFC23A7923C6F /* Pods_Demo_BitriseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DEEFB3CA9C119CE26CF49A /* Pods_Demo_BitriseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,12 +71,17 @@
 		93C405301FFE3E2000C6A4EE /* Demo_BitriseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_BitriseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C405341FFE3E2000C6A4EE /* Demo_BitriseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_BitriseUITests.swift; sourceTree = "<group>"; };
 		93C405361FFE3E2000C6A4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B114F4112196D570001EA7D5 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		B114F4132196DC9C001EA7D5 /* AddressExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressExt.swift; sourceTree = "<group>"; };
 		B18F6BC7214C1CD900A3C0EA /* IGListKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGListKitVC.swift; sourceTree = "<group>"; };
 		B18F6BC9214C1DFF00A3C0EA /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
 		B18F6BCB214C1EE600A3C0EA /* SuperHeroDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDataSource.swift; sourceTree = "<group>"; };
 		B18F6BCD214C1F4C00A3C0EA /* SuperHeroSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroSectionController.swift; sourceTree = "<group>"; };
 		B18F6BCF214C1FA900A3C0EA /* SuperHeroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroCell.swift; sourceTree = "<group>"; };
 		B18F6BD0214C1FA900A3C0EA /* SuperHeroCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperHeroCell.xib; sourceTree = "<group>"; };
+		B1C6F102219600010086FF60 /* RealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealService.swift; sourceTree = "<group>"; };
+		B1C6F104219600740086FF60 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B1E02E4B21507E80007BEA47 /* SafeAreaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaVC.swift; sourceTree = "<group>"; };
 		B21DEB4E0BC0D089C267744C /* Pods-Demo_BitriseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_BitriseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_BitriseUITests/Pods-Demo_BitriseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,10 +151,15 @@
 				93C405111FFE3E2000C6A4EE /* AppDelegate.swift */,
 				93C405131FFE3E2000C6A4EE /* ViewController.swift */,
 				B18F6BC7214C1CD900A3C0EA /* IGListKitVC.swift */,
+				B1C6F102219600010086FF60 /* RealService.swift */,
+				B1C6F104219600740086FF60 /* Client.swift */,
+				B114F4112196D570001EA7D5 /* Address.swift */,
+				B114F4132196DC9C001EA7D5 /* AddressExt.swift */,
 				B18F6BC9214C1DFF00A3C0EA /* SuperHero.swift */,
 				B18F6BCB214C1EE600A3C0EA /* SuperHeroDataSource.swift */,
 				B18F6BCD214C1F4C00A3C0EA /* SuperHeroSectionController.swift */,
 				B18F6BCF214C1FA900A3C0EA /* SuperHeroCell.swift */,
+				B1E02E4B21507E80007BEA47 /* SafeAreaVC.swift */,
 				B18F6BD0214C1FA900A3C0EA /* SuperHeroCell.xib */,
 				93C405151FFE3E2000C6A4EE /* Main.storyboard */,
 				93C4051B1FFE3E2000C6A4EE /* Assets.xcassets */,
@@ -402,10 +417,15 @@
 			files = (
 				B18F6BCA214C1DFF00A3C0EA /* SuperHero.swift in Sources */,
 				93C4051A1FFE3E2000C6A4EE /* Demo_Bitrise.xcdatamodeld in Sources */,
+				B1E02E4C21507E80007BEA47 /* SafeAreaVC.swift in Sources */,
 				B18F6BCE214C1F4C00A3C0EA /* SuperHeroSectionController.swift in Sources */,
+				B1C6F105219600740086FF60 /* Client.swift in Sources */,
 				B18F6BD1214C1FA900A3C0EA /* SuperHeroCell.swift in Sources */,
+				B114F4122196D570001EA7D5 /* Address.swift in Sources */,
 				B18F6BC8214C1CD900A3C0EA /* IGListKitVC.swift in Sources */,
 				93C405141FFE3E2000C6A4EE /* ViewController.swift in Sources */,
+				B1C6F103219600010086FF60 /* RealService.swift in Sources */,
+				B114F4142196DC9C001EA7D5 /* AddressExt.swift in Sources */,
 				B18F6BCC214C1EE600A3C0EA /* SuperHeroDataSource.swift in Sources */,
 				93C405121FFE3E2000C6A4EE /* AppDelegate.swift in Sources */,
 			);
