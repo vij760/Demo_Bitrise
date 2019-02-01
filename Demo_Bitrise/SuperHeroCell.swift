@@ -21,6 +21,7 @@ class SuperHeroCell: UICollectionViewCell {
         
         lbl_FirstName.text = superHero.firstName
         lbl_LastName.text = superHero.lastName
+        print("super hero")
     }
 
 }
