@@ -28,6 +28,7 @@
 		B1C6F103219600010086FF60 /* RealService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6F102219600010086FF60 /* RealService.swift */; };
 		B1C6F105219600740086FF60 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C6F104219600740086FF60 /* Client.swift */; };
 		B1E02E4C21507E80007BEA47 /* SafeAreaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E02E4B21507E80007BEA47 /* SafeAreaVC.swift */; };
+		B1F33D8A2205FD7C0093F5F0 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F33D892205FD7C0093F5F0 /* Plant.swift */; };
 		DB5C13F1B8DBFC23A7923C6F /* Pods_Demo_BitriseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DEEFB3CA9C119CE26CF49A /* Pods_Demo_BitriseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,7 @@
 		B1C6F102219600010086FF60 /* RealService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealService.swift; sourceTree = "<group>"; };
 		B1C6F104219600740086FF60 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		B1E02E4B21507E80007BEA47 /* SafeAreaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaVC.swift; sourceTree = "<group>"; };
+		B1F33D892205FD7C0093F5F0 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 		B21DEB4E0BC0D089C267744C /* Pods-Demo_BitriseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_BitriseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_BitriseUITests/Pods-Demo_BitriseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				B1C6F102219600010086FF60 /* RealService.swift */,
 				B1C6F104219600740086FF60 /* Client.swift */,
 				B114F4112196D570001EA7D5 /* Address.swift */,
+				B1F33D892205FD7C0093F5F0 /* Plant.swift */,
 				B114F4132196DC9C001EA7D5 /* AddressExt.swift */,
 				B18F6BC9214C1DFF00A3C0EA /* SuperHero.swift */,
 				B18F6BCB214C1EE600A3C0EA /* SuperHeroDataSource.swift */,
@@ -426,6 +429,7 @@
 				93C405141FFE3E2000C6A4EE /* ViewController.swift in Sources */,
 				B1C6F103219600010086FF60 /* RealService.swift in Sources */,
 				B114F4142196DC9C001EA7D5 /* AddressExt.swift in Sources */,
+				B1F33D8A2205FD7C0093F5F0 /* Plant.swift in Sources */,
 				B18F6BCC214C1EE600A3C0EA /* SuperHeroDataSource.swift in Sources */,
 				93C405121FFE3E2000C6A4EE /* AppDelegate.swift in Sources */,
 			);
