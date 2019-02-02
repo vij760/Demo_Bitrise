@@ -24,4 +24,8 @@ class plant {
         self.plantSeason = _plantseason
         
     }
+    
+    func bindData()  {
+        print("print data")
+    }
 }
